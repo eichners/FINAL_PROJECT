@@ -1,0 +1,81 @@
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+h1 {
+    color: #229A00;
+    font-family: 'Cutive Mono', Verdana;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+h2 {
+    color: black;
+    font-family: 'Cutive Mono', Verdana;
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 100;
+}
+h3 {
+    color: black;
+    font-family: 'Cutive Mono', Verdana;
+    font-size: 12px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+#map {
+    position:fixed;
+    float:left;
+    height: 100%;
+    width: 72%;
+    border-right: .5px;
+    border-right-style: solid;
+    border-right-color:black;
+}
+
+.legend {
+    line-height: 18px;
+    padding: 5px 14px 1px 10px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.lotContent {
+  float: right;
+  height: 100%;
+  width: 28%;
+  border-left: 0px;
+  border-left-style: solid;
+  border-left-color:black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  color: black;
+  font-family: 'Cutive Mono', Verdana;
+  font-size: 11px;
+  line-height: 1.75;
+  background: #f4f4f0;
+  font-weight: 400;
+  z-index: 500;
+}
+
+.imageContent {
+    width: 90%; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+}
+
+img {
+    position: relative; /* allows repositioning */
+}
+
